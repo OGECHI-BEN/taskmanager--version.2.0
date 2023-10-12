@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background:rgb(176, 191, 191);
+}
+.container{
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 80%;
+    background-color:blueviolet;
+}
+h2{
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+}
+.task_contents{
+    width: 100%;
+    font-size: 20px;
+    color: aliceblue;
+    line-height: 2rem;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+img{
+    cursor: pointer;
+    height:15px;
+    width:30px;
+}
+.input-area{
+ display: flex;
+ background: #edeef0;
+ justify-content: space-between;
+ align-items: center;
+ padding-left: 20px;
+ border-radius: 30px;
+ margin-bottom: 20px;
+}
+.input_bar{
+    flex: 1;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 10px;
+}
+.add{
+    color: white;
+    outline: none;
+    border: none; 
+    padding: 16px 50px;
+    background-color:rgb(176, 191, 191);;
+    border-radius:50px;
+    font-size: 15px;
+  cursor: pointer;
+}
+.edit_bar{
+    outline: none;
+    padding: 5px;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+     background:transparent; 
+    justify-content: space-between;
+    border-radius: 17px;
+    flex: 1;
+}
+.while_editing{
+        color:white;
+        border:rgb(176, 191, 191) 3px solid; 
+        padding: 10px;
+        border-radius: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        display: flex;
+       justify-content: space-between; 
+        align-content: center;
+        padding: 6px;
+        margin: 5px;
+       display: none;
+}
+.change_status_icon{
+    cursor: pointer;
+}
